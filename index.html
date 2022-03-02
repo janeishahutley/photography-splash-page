@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Photography Splash Page</title>
+  </head>
+
+  <body>
+    <div class="container container-flex">
+      <header>
+        <p class="title">Smile Photography</p>
+        <h1>
+          Put your best <br />
+          <span>smile</span> <br />
+          on display
+        </h1>
+        <h2>Sign up today to learn about our photo bundles!</h2>
+
+        <form
+          class="form-input"
+          action="https://formsubmit.co/forensicrose@gmail.com"
+          method="POST"
+        >
+          <input type="text" placeholder="first name" required />
+          <input type="text" placeholder="last name" required />
+          <input type="email" placeholder="email" required />
+          <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+
+          <button class="btn btn-primary" type="submit">SUMBIT</button>
+        </form>
+      </header>
+
+      <section class="photo-section">
+        <div class="carousel">
+          <div>
+            <img
+              class="carousel-item carousel-item-visible"
+              src="images/img-1.jpg"
+            />
+          </div>
+          <div>
+            <img class="carousel-item" src="images/img-2.jpg" />
+          </div>
+          <div>
+            <img class="carousel-item" src="images/img-3.jpg" />
+          </div>
+          <div>
+            <img class="carousel-item" src="images/img-4.jpg" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

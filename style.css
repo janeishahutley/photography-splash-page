@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.125rem;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+
+body,
+h1,
+h2,
+.title {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.25rem;
+  padding: 0 0.25em;
+}
+
+h2 {
+  font-size: 1.3125rem;
+  padding: 0.75em 0.5em;
+  font: bolder;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+header {
+  background-position: left;
+  background-color: #36454f;
+}
+
+.title {
+  font-size: 0.625;
+  font-weight: bolder;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  text-transform: uppercase;
+  border-bottom: 4px solid #ffc0cb;
+}
+
+span {
+  font-size: 4rem;
+  font-family: 'Neonderthaw', cursive;
+  color: #d87093;
+  border-bottom: 3px solid #add8e6;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.form-input {
+  max-width: 400px;
+  width: 50%;
+  margin: 1em auto 0;
+  /* padding-bottom: 1em; */
+}
+
+input {
+  text-align: inherit;
+  width: 100%;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  border: 1px solid #404040;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  font-size: 0.65rem;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.75em 1em;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  background-image: linear-gradient(to right, #ffc0cb, #add8e6);
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item,
+.carousel-item-hidden {
+  display: none;
+}
+
+.carousel-item-visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .container-flex {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    margin: 0;
+  }
+
+  .photo-section {
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2,
+  .form-input {
+    font-size: 1.75rem;
+    padding: 0;
+  }
+
+  img {
+    height: 900px;
+    object-fit: cover;
+  }
+
+  .title {
+    border-top: 4px solid #add8e6;
+  }
+
+  span {
+    font-size: 6rem;
+  }
+}
