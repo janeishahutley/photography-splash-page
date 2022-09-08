@@ -58,6 +58,7 @@ span {
 
 img {
   max-width: 100%;
+  margin-top: 150px;
   display: block;
 }
 
@@ -145,6 +146,8 @@ input {
   img {
     height: 900px;
     object-fit: cover;
+    height: 100vh;
+    margin-top: 0;
   }
 
   .title {
@@ -153,5 +156,9 @@ input {
 
   span {
     font-size: 6rem;
+  }
+
+  .btn-primary {
+    cursor: pointer;
   }
 }
